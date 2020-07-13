@@ -4,6 +4,10 @@
   margin: 0;
   padding: 0;
 }
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 18px;
+}
 .container {
   text-align: center;
   margin-top: 100px;
@@ -22,11 +26,13 @@ h3 {
 img {
   height: 200px;
 }
+/* .container > div {
+  margin: 50px 0px;
+} */
 /* /impostazioni generali/
 
 /* WHY */
 .why > .container > div {
-  margin: 50px 0px;
   border-bottom: 1px solid grey;
 }
 .why > .container > div:last-child {
@@ -35,7 +41,7 @@ img {
 }
 
 .why > .container > div > p {
-  padding-bottom: 7px;
+  /* padding-bottom: 7px; */
 }
 .why img {
   height: 250px;
@@ -44,3 +50,10 @@ img {
   padding: 20px;
 }
 /* /WHY */
+
+/* Responsive layout */
+@media screen and (max-width:992px) {
+  .why > .container > div {
+    border-bottom: none;
+  }
+}
