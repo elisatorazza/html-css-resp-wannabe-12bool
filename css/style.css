@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  text-align: center;
+  margin-top: 50px;
+}
+h2 {
+  margin:30px 0;
+}
+/* impostazioni immagini*/
+img {
+  height: 200px;
+}
+.how img {
+  height: 250px;
+}
+.why img {
+  background-color: #428bca;
+  border-radius: 100%;
+  padding: 20px;
+}
+/* /impostazioni immagini*/
