@@ -10,16 +10,16 @@ body {
 }
 .container {
   text-align: center;
-  margin-top: 100px;
-  margin-bottom: 20px;
+  margin-top: 5%;
+  margin-bottom: 2%;
 }
 h2 {
-  margin:30px 0;
-  padding: 30px 0;
+  margin:3% 0;
+  padding: 3% 0;
   text-transform: uppercase;
 }
 h3 {
-  padding: 30px 0;
+  padding: 3% 0;
 }
 h3:hover {
   background-color: #6FA2FF;
@@ -30,32 +30,49 @@ h3:hover {
 img {
   height: 200px;
 }
+.container > div > p {
+  padding-bottom: 3%;
+}
 /* /impostazioni generali/
 
 /* WHY */
 .why > .container > div {
   border-bottom: 1px solid grey;
-  margin-bottom: 20px;
+  margin-bottom: 2%;
 }
 .why > .container > div:last-child {
   margin-bottom: 0;
   border-bottom: none;
 }
-
-.why > .container > div > p {
-  /* padding-bottom: 7px; */
-}
 .why img {
   height: 250px;
   background-color: #428bca;
   border-radius: 100%;
-  padding: 20px;
+  padding: 3%;
 }
 /* /WHY */
 
 /* Responsive layout */
 @media screen and (max-width:992px) {
+  body {
+    font-size: 16px;
+  }
+  .container {
+    width:80vw;
+    margin: 5% auto 0;
+  }
   .why > .container > div {
     border-bottom: none;
+  }
+  img {
+    height: 150px;
+  }
+  .why img {
+    height: 200px;
+  }
+}
+@media screen and (max-width:768px) {
+  .why img {
+    height: 150px;
   }
 }
